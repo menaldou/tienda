@@ -1,0 +1,118 @@
+.color {
+  background-color: #3e444f;
+  color: #FFFFFF;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.division {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+
+  font-size: 3.5rem;
+}
+
+
+form {
+  margin-top: 5rem;
+  flex: 1.5;
+  width: 88%;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  background-color: #cfcfd9;
+  padding: 1.5rem 4rem;
+  color: #3e444f;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: .3s;
+  text-align: center;
+  display: block;
+  margin: 6rem 0;
+  border-radius: 0.5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.campo label {
+  flex: 0 0 10rem;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.campo input {
+  flex: 1;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.altura {
+  height: 75rem;
+  width: 100%;
+}
+
+.link {
+
+  color: #cfcfd9;
+}
+
+.alert {
+  font-size: 2.8rem;
+}
+
+.github-button {
+  display: 'flex';
+  background: '#333';
+  color: '#fff';
+  border: 'none';
+  border-radius: '5px';
+  padding: '40px 40px';
+  cursor: 'pointer';
+  font-size: '16px';
+  justify-content: 'center';
+}

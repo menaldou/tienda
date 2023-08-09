@@ -1,0 +1,21 @@
+
+.color {
+    background-color: #3e444f;
+    color: white;
+    text-align: center;
+}
+
+
+
+.App{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 20rem 5rem 20rem;
+    padding: 3rem;
+    justify-content: space-evenly    
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}

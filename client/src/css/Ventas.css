@@ -1,0 +1,75 @@
+.color {
+    background-color: #3e444f;
+    color: white;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    background-color: rgb(232, 166, 45);
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 3.5rem;
+    
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+.form-field label {
+
+    font-size: 2.3rem;
+    margin: 2rem 0 0 2rem ;
+    border-radius: 0.5rem;
+    text-align: center;
+    
+}
+
+
+.barra {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(232, 166, 45);
+    padding: 0.5rem 0;
+    margin: 2rem 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.centrar {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.factura {
+    display: flex;
+    justify-content: center;
+}
+
+.cabeza-factura{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sep {
+    margin-bottom: 2rem;
+}
